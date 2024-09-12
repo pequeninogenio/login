@@ -1,0 +1,43 @@
+header{
+  width: 100%;
+  height: 160px;
+  background: linear-gradient(to bottom, #ffac4e 20%, #FFF);
+}
+
+body{
+  font-family: 'Poppins', sans-serif;
+}
+
+.text-left{
+  text-align: left;
+}
+
+.text-right{
+  text-align: right;
+}
+
+.text-center{
+  text-align: center;
+}
+
+.btn-group{
+  text-align: center;
+}
+
+.nav-item{
+  color: #fff;
+}
+
+#rodape_text{
+  color: #F6A412;
+}
+
+#navbar{
+  background-color: #F6A412;
+  border: solid black 1px;
+}
+
+#menus_cafes{
+  background-color: #2B0A00;
+  color: #FFF;
+}

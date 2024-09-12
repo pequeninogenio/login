@@ -1,0 +1,14 @@
+body{
+    background: black;
+}
+header{min-height: 10vh;}
+.container header, nav,article{
+    background:white;
+    margin: 2vh auto;
+
+}
+
+.container nav div div{
+    min-height: 80vh;
+    
+}
