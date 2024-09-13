@@ -1,13 +1,13 @@
 
 
 .container1{
-  background-color: black;
+  background-color: rgb(65, 65, 219);
   
 }
 
 .container1-1{
   background-color: brown;
-  height: 1230px;
+  height: 100vh;
  
 }
 
@@ -22,14 +22,44 @@
      
   }}
 
-.fixed-size {
-    width: 70px;
-    height: 70px;
-}
+  @media (min-width: 500px) {
+    .img1 {
+      width: 150px;
+      height: 150px;
+  }
+  .entradas{
+    width: 700px; 
+    margin-right: 50px;
+  }}
 
-.img1 {
-  width: 500px;
-  height: 500px;
-}
+  @media (min-width: 300px) and (max-width:500px){
+    .img1 {
+      width: 50px;
+      height: 50px;
+  }
+  .entradas{
+    width:225px; ;
+  }
+  .senha{
+
+  }
+  }
+  @media(min-width: 501px)and (max-width: 1600px){
+    .entradas{ width: 30vh;
+    margin-left:20px ;}
+    
+
+  }
+
+  @media(min-width: 501px)and (max-width: 680px){
+    .entradas{ width: 20vh;
+    margin-left:20px ;}
+  }
+ @media(max-width:719px){ .checkboxsenha{margin-bottom: 22px;}
+
+ }
+
+
+
 
  
